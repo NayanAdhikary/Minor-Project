@@ -5,6 +5,7 @@ body{
   background-repeat: no-repeat;
   position: sticky;
   position: static;
+  align-items: center;
 }
 /* navigation bar*/
 html,
