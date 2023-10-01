@@ -37,12 +37,14 @@
         <div class="slide_show">
             <div class="image-slideshow">
             <div class="image fade">
-                <img src="washisng machine.jpg" alt="Mountain Top">
+                <img src="washisng machine.jpg">
             </div>        
             <div class="image fade">
-                <img src="mobile phone.png" alt="Palm Trees">
+                <img src="mobile phone.png">
             </div>
-            .image fade
+            <div class="image fade">
+                <img src="" alt="">
+            </div>
         </div>
             <script src="main.js"></script>
         </div>
