@@ -35,7 +35,7 @@
       <div class="slide_show">
         <section>
         <div class="slide_show">
-            <div class="image-slideshow">
+        <div class="image-slideshow">
             <div class="image fade">
                 <img src="washisng machine.jpg">
             </div>        
@@ -43,7 +43,7 @@
                 <img src="mobile phone.png">
             </div>
             <div class="image fade">
-                <img src="" alt="">
+                <img src="laptop sale.jpg">
             </div>
         </div>
             <script src="main.js"></script>
