@@ -3,54 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="landing_page.css">
+    <title>Animated Navbar</title>
 </head>
 <body>
-    <!-- navigation bar -->
-    <div class="container red topBotomBordersOut">
+    <header>
+        <div class="logo">
+            <p>Tech Heaven</p>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BRANDS</a></li>
+                <li><a href="#">SELL</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+        </nav>
+        <div class="text_box">
+            <input type="text" placeholder="What you are looking here?">
+        </div>
+        <div class="location">
+            <p>Location</p>
+        </div>
+        <div class="account">
+            <img src="person.png">
+        </div>
+        <div class="cart">
+            <img src="cart.png">
+        </div>
+    </header>
+    <div class="slide_show">
         <section>
-            <div class="part">
-                <a href="home">HOME</a>
-                <a href="brans">BRANDS</a>
-                <a href="sale">SELL</a>
-                <a href="contact">CONTACT</a>
-                <a href="about us">ABOUT US</a>
-                <p class="Logo">
-                    Tech Heaven
-                </p>
-                <input class="textbox" type="text" placeholder="What you are looking for?">
-                <p class="location">
-                    Location 
-                </p>
-                <div class="person">
-                    <img class="account" src="person.png" height="25px">
-                </div>
-                <div class="cart">
-                    <img src="cart.png" height="25px" class="Cart">
+            <div class="slide_show">
+                <div class="image-slideshow">
+                    <div class="image fade">
+                        <img src="washisng machine.jpg">
+                    </div>        
+                    <div class="image fade">
+                        <img src="mobile phone.png">
+                    </div>
+                    <div class="image fade">
+                        <img src="laptop sale.jpg">
+                    </div>
                 </div>
             </div>
         </section>
-      </div>
-      <div class="slide_show">
-        <section>
-        <div class="slide_show">
-         <div class="image-slideshow">
-            <div class="image fade">
-                <img src="washisng machine.jpg">
-            </div>        
-            <div class="image fade">
-                <img src="mobile phone.png">
-            </div>
-            <div class="image fade">
-                <img src="laptop sale.jpg">
-            </div>
-        </div>
-        </div>
-        </section>
-      </div>
-      <div class="items">
-      </div>
+    </div>
       <script src="slide_show.js"></script>
 </body>
 </html>

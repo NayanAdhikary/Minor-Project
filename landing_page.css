@@ -1,165 +1,136 @@
-body{
-  background:rgb(44, 44, 44); 
-  margin: 2;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: sticky;
-  position: static;
-  align-items: center;
+/* styles.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-/* navigation bar*/
-html,
+
+/* Global styles */
 body {
-margin: 0px;
+  font-family: 'Montserrat';
+  margin: 2;
+  background-color: #333;
 }
 
-
-section{
-font-family: 'Montserrat';
-margin: 0 auto;
-height: 90px;
-position: relative;
-right: 50px;
-bottom: 160px;
-text-align: center;
-background: #000000;
-padding-left: 150px;
-padding-top: 15px;
-max-width: 100%;
-border-radius: 15px;
+/* Header styles */
+header {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  padding-right: 700px;
+  position: sticky;
+  width: 100%;
+  height: 60px;
+  z-index: 1000;
+  place-items: center;
 }
 
-.part{
-padding-top: 10px;
+.logo {
+  padding-left: 100px;
+  position: sticky;
+  font-size: 20px;
 }
 
-section h1 {
-color: #aaa;
-font-size: 50px;
-font-weight: lighter;
-margin-bottom: 5px;
+.nav-links{
+  padding-left: 80px;
+  width: 300px;
+  position: sticky;
 }
 
-section a{
-position: relative;
-top: 2px;
+nav ul.nav-links {
+  list-style: none;
+  display: flex;
 }
 
-section span {
-color: #222;
+nav ul.nav-links li {
+  margin-right: 20px;
 }
 
-footer span {
-color: #aaa;
+nav ul.nav-links li:last-child {
+  margin-right: 0;
 }
 
-div.container {
-font-family: 'Montserrat';
-margin: 0 auto;
-padding: 10em 3em;
-text-align: center;
+nav ul.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
-div.container a {
-color: #fff;
-text-decoration: none;
-font: 16.5px 'Poppins';
-font-weight: lighter;
-margin: 0px 10px;
-padding: 1.5px;
-position: relative;
-z-index: 0;
-cursor: pointer;
-right: 180.5px;
-}
-div.topBotomBordersOut a:before,
-div.topBotomBordersOut a:after {
-position: absolute;
-left: 0px;
-width: 100%;
-height: 2px;
-background: #fff;
-content: "";
-opacity: 0;
-transition: all 0.3s;
+nav ul.nav-links li a:hover {
+  color: #06d1ff;
 }
 
-div.topBotomBordersOut a:before {
-top: 0px;
-transform: translateY(10px);
+/* text box */
+.text_box{
+  padding-left: 100px;
 }
-
-div.topBotomBordersOut a:after {
-bottom: 0px;
-transform: translateY(-10px);
+.text_box input{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
 }
-
-div.topBotomBordersOut a:hover:before,
-div.topBotomBordersOut a:hover:after {
-opacity: 1;
-transform: translateY(0px);
-}
-.Logo{
-color: white;
-font-weight: bolder;
-float: left;
-text-align: center;
-display: block;
-font-size: 35px;
-width: 230px;
-height: 50px;
-position: relative;
-bottom: 35px;
-right: 65px;
-}
-.textbox{
-border: 2px solid black;
-width: 450px;
-position: relative;
-right: 120px;
-height: 30px;
-border-radius: 10px;
-padding: 8px;
-font-family: 'Mooli';
-}
+/* location */
 .location{
-color: white;
-float: right;
-position: relative;
-right: 220px;
+  padding-left: 50px;
 }
+/* account logo*/
+
 .account{
-float: right;
-position: relative;
-right: 90px;
-bottom: 35px;
-}
-.Cart{
-float: right;
-position: relative;
-bottom: 35px;
+  padding-left: 50px;
+  padding-top: 2px;
 }
 
-/* Silde show*/
+.account img{
+  height: 25px;
+  width: 25px;
+}
+
+/* cart logo*/
+.cart{
+  padding-left: 50px;
+  padding-top: 2px;
+}
+
+.cart img{
+  width: 25px;
+  height: 25px;
+}
+
+/* slide show */
+
+.slide_show{
+  padding-top: 50px;
+}
+
 .image-slideshow {
-max-width: 1000px;
-position: relative;
-margin: auto;
-position: relative;
-bottom: 150px;
-}
-.slide_show section{
-  background-color: rgb(44, 44, 44);
-}
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  position: relative;
+  bottom: 150px;
+  padding-right: 200px;
+  }
+  .slide_show section{
 
-.slide_show img {
-width: 1000px;
-}
-.fade {
-animation-name: fade;
-animation-duration: 18s;
-}
-@keyframes fade {
-from {opacity: .5}
-to {opacity: 1}
-}
+  }
+
+  .slide_show img {
+  width: 1000px;
+  padding-top: 100px;
+  }
+  .fade {
+  animation-name: fade;
+  animation-duration: 50s;
+  }
+  @keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+  }
