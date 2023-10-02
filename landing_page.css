@@ -39,6 +39,7 @@ header {
 
 .nav-links{
   padding-left: 80px;
+  padding-top: 5px;
   width: 300px;
   position: sticky;
 }
