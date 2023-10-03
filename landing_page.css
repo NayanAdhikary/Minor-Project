@@ -58,6 +58,10 @@ nav ul.nav-links li:last-child {
   margin-right: 0;
 }
 
+.nav-links a{
+  padding: 2px;
+}
+
 nav ul.nav-links li a {
   color: #fff;
   text-decoration: none;
@@ -73,7 +77,6 @@ nav ul.nav-links li a:hover {
   background-color: #04AA6D;
   color: white;
   padding: 16px;
-  font-size: 16px;
   border: none;
 }
 
@@ -82,11 +85,12 @@ nav ul.nav-links li a:hover {
   position: relative;
   display: inline-block;
   padding-bottom: 20px;
-  padding-right: 20px;
+  padding-left: 20px;
 }
 
+
 .dropdown button{
-  width: 80px;
+  width: 65px;
   height: 30px;
   background-color: black;
   font-size: 12px;
@@ -109,6 +113,9 @@ nav ul.nav-links li a:hover {
 
 .dropbtn{
   padding-top: 0.1px;
+  padding-left: 0.1px;
+  position: relative, static;
+  left: 2px;
 }
 
 /* Links inside the dropdown */
