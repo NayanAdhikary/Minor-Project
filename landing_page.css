@@ -31,30 +31,38 @@ header {
   place-items: center;
 }
 
-.home{
-  color: white;
+.logo{
+  padding-left: 100px;
 }
 
-.logo {
-  padding-left: 100px;
-  position: sticky;
+.logo a{
+  color: white;
+  text-decoration: none;
   font-size: 20px;
 }
+
 /* text box */
 .text_box{
-  padding-left: 120px;
+  padding-left: 15px;
 }
 .text_box input{
   display: flex;
   flex-wrap: wrap;
-  width: 500px;
+  width: 650px;
   height: 40px;
   border-radius: 10px;
   padding-left: 10px;
 }
 /* location */
-.location{
+
+.seller{
   padding-left: 50px;
+  padding-top: 3px;
+}
+
+.seller img{
+  height: 35px;
+  width: 40px;
 }
 /* account logo*/
 
