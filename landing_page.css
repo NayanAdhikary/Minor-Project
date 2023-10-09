@@ -31,120 +31,15 @@ header {
   place-items: center;
 }
 
+.home{
+  color: white;
+}
+
 .logo {
   padding-left: 100px;
   position: sticky;
   font-size: 20px;
 }
-
-.nav-links{
-  padding-left: 30px;
-  padding-top: 28px;
-  width: 320px;
-  font-size: 12px;
-  position: sticky;
-}
-
-nav ul.nav-links {
-  list-style: none;
-  display: flex;
-}
-
-nav ul.nav-links li {
-  margin-right: 15px;
-}
-
-nav ul.nav-links li:last-child {
-  margin-right: 0;
-}
-
-.nav-links a{
-
-}
-
-nav ul.nav-links li a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-nav ul.nav-links li a:hover {
-  color: #06d1ff;
-}
-
-/* Dropdown Button */
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  border: none;
-}
-
-.button{
-  padding-top: 1px;
-  padding-right: 10px;
-  position: sticky;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  padding-bottom: 20px;
-  padding-left: 20px;
-}
-
-
-.dropdown button{
-  width: 65px;
-  height: 30px;
-  background-color: black;
-  font-size: 12px;
-}
-
-.dropdown button:hover{
-  color: #06d1ff;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #181818;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border-radius: 15px;
-}
-
-.dropbtn{
-  padding-top: 0.1px;
-  padding-left: 0.1px;
-  position: relative, static;
-  left: 2px;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #262626;
-  border-radius: 15px;
-  -webkit-animation-delay: 5s;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #000000;}
-
 /* text box */
 .text_box{
   padding-left: 120px;
@@ -214,3 +109,14 @@ nav ul.nav-links li a:hover {
   from {opacity: .5}
   to {opacity: 1}
   }
+
+.section2{
+  padding: 5px;
+}
+
+.items img{
+  height: 120px;
+  border-radius: 80%;
+  width: 120px;
+  padding: 8px;
+}
