@@ -89,9 +89,11 @@ header {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
+  max-height: 400px;
   position: relative;
   margin: auto;
+  padding: 10px;
 }
 
 /* Hide the images by default */
@@ -174,12 +176,25 @@ header {
 }
 
 .section2{
-  padding: 5px;
+  padding: 10px;
 }
 
-.items img{
-  height: 120px;
+.item{
+  background-color: #3f3f3f;
+  padding-left: 150px;
+  height: 130px;
+}
+
+.item1 img{
+  height: 90px;
   border-radius: 80%;
-  width: 120px;
-  padding: 8px;
+  width: 90px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.item1 p{
+  color: white;
+  padding-left: 15px;
+  padding-bottom: 30px;
 }
