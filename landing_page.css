@@ -260,3 +260,21 @@ header {
   position: relative;
   bottom: 8px;
 }
+
+.item5{
+  padding-left: 590px;
+  position: relative;
+  bottom: 508px;
+}
+
+.item5 img{
+  height: 100px;
+  width: 160px;
+}
+
+.item5 p{
+  color: white;
+  padding-left: 40px;
+  position: relative;
+  bottom: 10px;
+}
