@@ -32,7 +32,7 @@ header {
 }
 
 .logo{
-  padding-left: 100px;
+  padding-left: 200px;
 }
 
 .logo a{
@@ -177,12 +177,18 @@ header {
 
 .section2{
   padding: 10px;
+  display: block;
+  position: relative;
 }
 
 .item{
   background-color: #3f3f3f;
   padding-left: 150px;
   height: 130px;
+}
+
+.item1{
+  padding-top: 5px;
 }
 
 .item1 img{
@@ -195,10 +201,7 @@ header {
 
 .item1 p{
   color: white;
-  padding-left: 15px;
+  padding-left: 20px;
   padding-bottom: 30px;
-}
-
-.item2 img{
-
+  text-decoration: none;
 }
