@@ -43,7 +43,7 @@ header {
 
 /* text box */
 .text_box{
-  padding-left: 15px;
+  padding-left: 50px;
 }
 .text_box input{
   display: flex;
@@ -204,4 +204,59 @@ header {
   padding-left: 20px;
   padding-bottom: 30px;
   text-decoration: none;
+}
+
+.item2{
+  padding-left: 150px;
+  position: relative;
+  bottom: 145px;
+}
+
+.item2 img{
+  height: 100px;
+  width: 150px;
+}
+
+.item2 p{
+  color: white;
+  padding-left: 32px;
+  position: relative;
+  bottom: 7px;
+  text-decoration: none;
+}
+
+.item3{
+  padding-left: 300px;
+  position: relative;
+  bottom: 267px;
+}
+
+.item3 img{
+  height: 100px;
+  width: 160px;
+}
+
+.item3 p{
+  color: white;
+  padding-left: 45px;
+  position: relative;
+  bottom: 7px;
+}
+
+.item4{
+  padding-left: 450px;
+  position: relative;
+  bottom: 387px;
+}
+
+.item4 img{
+  height: 100px;
+  width: 160px;
+}
+
+.item4 p{
+  color: white;
+  padding-left: 45px;
+  position: relative;
+  bottom: 8px;
 }
