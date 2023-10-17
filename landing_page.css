@@ -308,3 +308,27 @@ header {
   position: relative;
   bottom: 8px;
 }
+
+.image_section{
+  border-radius: 10px;
+  padding: 2px;
+  background-color: #717171;
+}
+
+.image_section p{
+  color: white;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.images{
+  padding: 2px;
+  display: inline-flex;
+}
+
+.images img{
+  border-radius: 20px;
+  padding-left: 118px;
+}
